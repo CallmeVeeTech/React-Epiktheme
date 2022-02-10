@@ -1,0 +1,370 @@
+
+.project{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.hero{
+  height: 1400px;
+  background-color: #fc5335;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.hero-hold{
+  width: 100%;
+  background-color:#21252e ;
+  height: 1300px;
+  border-bottom-right-radius: 300px;
+  background-image: url('./gallery/image5.png');
+}
+header{
+  width: 100%;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu{
+  margin-right: 400px;
+}
+.logo{
+  height: 170px;
+  width: 150px;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  background-color:#fc5335 ;
+  display: flex;
+  align-items:center;
+  margin-left: 400px;
+}
+span{
+  font-size: 40px;
+  color: white;
+  margin: 15px;
+}
+.signup-btn{
+  height: 80px;
+  width: 200px;
+  background-color: white;
+  color: #fc5335;
+  border-radius: 40px;
+  font-size: 40px;
+  outline: none;
+  border: none;
+  margin-left: 10px;
+}
+.heropage{
+  display: flex;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 250px;
+}
+.hero-text{
+  line-height: 50px;
+  width: 950px;
+  margin-left: 400px;
+}
+h1{
+  font-size: 115px;
+  color:#fc5335;
+}
+h2{
+  font-size: 65px;
+  color: white;
+}
+.lorem-1{
+  font-size: 30px;
+  color: white;
+}
+.hero-img{
+  margin-right: 1000px;
+  position: relative;
+  top: 0; 
+  left: 0
+}
+.circle{
+  height: 600px;
+  border-radius: 600px;
+  width: 600px;
+  border: 40px #fc5335;
+  border-style:solid;
+  background-color: inherit;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.img2{
+  width: 1250px;
+  position: absolute;
+  top: -100px;
+  left: -350px;
+}
+.get-btn{
+  height: 80px;
+  width: 200px;
+  background-color:#fc5335;
+  color: white;
+  border-radius: 40px;
+  font-size: 30px;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  margin-top: 25px;
+}
+.main-top{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+p{
+  font-size: 70px;
+  font-weight: bolder;
+}
+.card1{
+  height: 450px;
+  width: 1000px;
+  background-color: white;
+  border-bottom: 5px #fc5335;
+  border-style: groove;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  border-radius: 10px;
+  margin-left: 400px;
+}
+.card{
+  height: 450px;
+  width: 1000px;
+  background-color: white;
+  border-bottom: 5px #fc5335;
+  border-style: groove;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  border-radius: 10px;
+  margin-left: 100px;
+}
+.icon-hold{
+  height: 150px;
+  width: 150px;
+  border-radius: 150px;
+  border: 3px #fc5335;
+  border-style: groove;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 60px;
+  background-color: white;
+}
+.card-text{
+  text-align: left;
+  margin-top: 50px;
+  width: 600px;
+  line-height: 50px;
+}
+.first-text{
+  font-size: 50px;
+  font-weight:bold; 
+}
+.card-lorem{
+  font-size: 30px;
+  }
+.read-icon{
+  display: flex;
+  align-items: center;
+}
+.read{
+  font-size: 30px;
+  font-weight: bold;
+  color: #fc5335;
+}
+.card-hold{
+  width: 100%;
+  display: flex;
+}
+.imgfone{
+  width: 900px;
+  position: absolute;
+  top: 2800px;
+  right: 1930px;
+}
+.circle-hold{
+  display: flex;
+  margin-left: 400px;
+}
+.circle2{
+  height: 700px;
+  border-radius: 700px;
+  width: 700px;
+  border: 40px #fc5335;
+  border-style:solid;
+  background-color: inherit;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.feature-content{
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.unlock{
+  font-size: 60px;
+  font-weight: bold;
+}
+.app-features{
+  font-size: 55px;
+  color:#fc5335;
+  font-weight: bold;
+}
+.features-lorem{
+  font-size: 35px;
+  margin-bottom: 25px;
+  line-height: 50px;
+}
+.icon-text{
+  display: flex;
+  /* margin-top: 10px; */
+  align-items:center;
+  line-height: 10px;
+}
+.icon-hold-btn{
+  height: 70px;
+  width: 70px;
+  border-radius: 70px;
+  background-color:#fc5335;
+  border: none;
+  outline: none;
+  margin-right: 20px;
+}
+h5{
+  font-size: 30px;
+}
+.unlock-hold{
+  width: 800px;
+  margin-left: 250px;
+}
+.ratings{
+  width: 100%;
+  height: 1100px;
+  background-color:  #1b1e25;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+  margin-top: 300px;
+  position: relative;
+}
+.people img{
+  height: 1100px;
+  width: 100%;
+  opacity: 0.18;
+}
+.price-box{
+  height: 800px;
+  width: 700px;
+  background-color: #fc5335;
+  margin-right: 100px;
+  margin-left: 400px;
+}
+.price-box1{
+  height: 800px;
+  width: 700px;
+  background-color: #fc5335;
+  margin-right: 100px;
+}
+.price-box2{
+  height: 800px;
+  width: 700px;
+  background-color:#21252e;
+  border-top-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  line-height: 90px;
+}
+.bundle{
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+}
+.duration{
+  color:#fc5335;
+  font-size: 45px;
+}
+.subscription-plan{
+  color: white;
+  font-size: 40px;
+}
+.plan-btn{
+  font-size: 25px;
+  color: white;
+  width: 150px;
+  height: 70px;
+  border: none;
+  background-color: #fc5335;
+  border-radius: 30px;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+.plan-hold{
+  width: 100%;
+  display: flex;
+  margin-bottom: 150px;
+}
+.plan-btn1{
+  font-size: 25px;
+  color: #fc5335;
+  width: 150px;
+  height: 70px;
+  border: 2px #fc5335 ;
+  border-style: solid;
+  background-color:#1b1e25;
+  border-radius: 30px;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+.solution-hold{
+  height: 1300px;
+  width: 100%;
+  background-color:#21252e;
+}
+.main-top1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+h6{
+  font-size:70px;
+  color: white;
+  font-weight: bolder;
+  margin-bottom: 400px;
+}
+.solution-content{
+  display: flex;
+}
+.solution-text{
+  margin-left: 400px;
+}
+.imgfone2{
+  width: 900px;
+  position: absolute;
+  top: 6700px;
+  /* right: 1930px; */
+}
